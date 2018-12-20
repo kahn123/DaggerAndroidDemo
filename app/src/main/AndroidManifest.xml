@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mydaggerandroid">
-
+    <!--https://www.cnblogs.com/dev-njp/p/8783341.html-->
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
