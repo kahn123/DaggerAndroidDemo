@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.app.Fragment;
 
-
 import com.example.mydaggerandroid.component.DaggerAppComponent;
 import com.example.mydaggerandroid.module.AppModule;
 

@@ -1,20 +1,13 @@
 package com.example.mydaggerandroid.module;
 
-import android.app.Activity;
-
 import com.example.mydaggerandroid.MainActivity;
 import com.example.mydaggerandroid.SecondActivity;
-import com.example.mydaggerandroid.component.MainActivityComponent;
-import com.example.mydaggerandroid.component.SecondActivityComponent;
+import com.example.mydaggerandroid.component.BaseActivityComponent;
 
-import dagger.Binds;
 import dagger.Module;
-import dagger.android.ActivityKey;
-import dagger.android.AndroidInjector;
 import dagger.android.ContributesAndroidInjector;
-import dagger.multibindings.IntoMap;
 
-@Module
+@Module(subcomponents = BaseActivityComponent.class)
 public abstract class AllActivityModule {
 
     @ContributesAndroidInjector(modules = MainActivityModule.class)
